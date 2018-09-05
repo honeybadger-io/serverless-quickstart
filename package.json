@@ -1,0 +1,15 @@
+{
+  "name": "notice-search-autocomplete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:honeybadger-io/notice-search-autocomplete.git",
+  "author": "Starr Horne <starr@chromahq.com>",
+  "license": "All rights reserved",
+  "private": true,
+  "devDependencies": {
+    "aws-sdk": "^2.298.0",
+    "aws-sdk-mock": "^4.1.0",
+    "jest": "^23.5.0",
+    "serverless-pseudo-parameters": "^2.2.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "extends": ["eslint-config-airbnb-base", "prettier"],
+  "plugins": ["prettier"],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "prettier/prettier": ["error", {"singleQuote": true, "trailingComma": "all"}],
+    "prefer-destructuring": 0,
+    prefer-const: ["error", {"destructuring": "all"}],
+    "class-methods-use-this": 0,
+    "no-new": 0,
+    "no-cond-assign": ["error", "except-parens"],
+    "import/no-unresolved": [2, { ignore: ['^aws-sdk$'] }],
+    "import/no-extraneous-dependencies": 0,
+    "no-console": 0,
+    "object-shorthand": 0,
+  }
+}
