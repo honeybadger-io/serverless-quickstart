@@ -6,6 +6,9 @@
 service: serverless-quickstart
 
 plugins:
+  # This plugin is optional, but  makes it much easier to use AWS metadata in this config file.
+  # If you find yourself using ugly syntax like "Fn::Join", check it out.
+  # For usage info: https://www.npmjs.com/package/serverless-pseudo-parameters
   - serverless-pseudo-parameters
 
 custom:
