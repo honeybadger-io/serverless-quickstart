@@ -66,7 +66,7 @@ It does so by using a different AWS profile for each stage.
 Profiles are stored in `~/.aws/credentials`.
 
 - **default** - Your default AWS profile should point to HB production.
-- \_\_honeybadger-dev - This profile is used for dev. Ideally, it should point to your personal AWS acct.
+- **honeybadger-dev** - This profile is used for dev. Ideally, it should point to your personal AWS acct.
 
 To deploy to development:
 
