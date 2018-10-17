@@ -20,12 +20,6 @@ custom:
 package:
   exclude:
     - tests/**
-    - node_modules/**
-
-  # If you need certain node modules in production, you can whitelist them here.
-  # This keeps bundle size down, which makes life easier.
-  # include:
-  #   - node_modules/foo
 
 provider:
   name: aws

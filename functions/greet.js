@@ -1,4 +1,5 @@
 const { hello } = require('../lib/hello');
+const { honeybadger } = require('../lib/honeybadger');
 
 function handler(event, context, callback) {
   // Log the event data. We convert it to JSON so that we can see all levels of nesting.
@@ -15,4 +16,4 @@ function handler(event, context, callback) {
   // );
 }
 
-module.exports = { handler };
+module.exports = { handler: honeybadger(handler) };

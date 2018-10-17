@@ -24,7 +24,7 @@ This project adopts one that seems to be fairly common:
 ├── tests                 // Tests go in `test` and are named like `foo.test.js`
 │   └── hello.test.js
 ├── serverless.yml        // Project configuration
-├── node_modules          // Out of the box, node modules are only used in local dev/testing
+├── node_modules          // Non-dev dependencies are automatically included by Serverless
 ├── README.md
 ├── package.json
 └── yarn.lock
@@ -41,10 +41,6 @@ npm install -g yarn serverless
 cd serverless-quickstart
 yarn install
 ```
-
-By default, node modules are only used in development and local testing.
-They're not sent to AWS as part of the lambda function.
-Look at `serverless.yml` for some clues on how to change this behavior.
 
 ## Local Tests
 
