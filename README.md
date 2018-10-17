@@ -3,9 +3,9 @@
 This is a blank serverless project that gives you:
 
 - A directory structure
-- Testing via Jest
+- Testing via [Jest](https://jestjs.io/)
 - Better dev/prod separation
-- A serverless-friendly ESLint config
+- A serverless-friendly [ESLint](https://eslint.org/) config
 
 ## Directory Structure
 
@@ -42,7 +42,7 @@ Look at `serverless.yml` for some clues on how to change this behavior.
 
 ## Local Tests
 
-Tests use the [jest](https://jestjs.io/) framework.
+Tests use the [Jest](https://jestjs.io/) framework.
 They run locally, and should mock all AWS calls so that they can run offline.
 
 Jest considers any file with a name like `foo.test.js` to be a test.
@@ -118,8 +118,8 @@ The code in `functions/greet.js` gives a pretty good overview of how data comes 
 
 ## Linting
 
-This project contains configuration for ESLint, but it doesn't automatically run the linter.
+This project contains configuration for [ESLint](https://eslint.org/), but it doesn't automatically run the linter.
 
 I recommend that you set up your editor to automaticaly run ESLint on save.
-In Vim, the syntastic plugin does this.
-For Neovim, neomake is a good option.
+In Vim, the [syntastic](https://github.com/vim-syntastic/syntastic) plugin does this.
+For Neovim, [neomake](https://github.com/neomake/neomake) is a good option.
