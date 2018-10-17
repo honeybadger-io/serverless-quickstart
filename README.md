@@ -1,4 +1,5 @@
-# Serverless Quickstart
+# Honeybadger's Serverless Quickstart
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 
 This is a blank serverless project that gives you:
 
