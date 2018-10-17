@@ -35,6 +35,9 @@ This project adopts one that seems to be fairly common:
 To get the project running locally, make sure you have node 8.x, yarn and serverless installed globally.
 
 ```
+# Install the yarn and serverless packages globally:
+npm install -g yarn serverless
+
 cd serverless-quickstart
 yarn install
 ```
