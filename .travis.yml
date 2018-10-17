@@ -1,6 +1,6 @@
 language: node_js
 cache: yarn
-script: npm test
+script: yarn jest
 node_js:
   - "9"
   - "8"
