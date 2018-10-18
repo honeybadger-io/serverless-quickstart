@@ -1,3 +1,5 @@
+[![Honeybadger's Serverless Quickstart](https://honeybadger-static.s3.amazonaws.com/github/serverless-quickstart.png)](https://www.honeybadger.io/for/node/)
+
 # Honeybadger's Serverless Quickstart
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 [![Build Status](https://travis-ci.org/honeybadger-io/serverless-quickstart.svg?branch=master)](https://travis-ci.org/honeybadger-io/serverless-quickstart)
