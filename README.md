@@ -1,4 +1,4 @@
-[![Honeybadger's Serverless Quickstart](https://honeybadger-static.s3.amazonaws.com/github/serverless-quickstart.png)](https://www.honeybadger.io/for/node/)
+[![Honeybadger's Serverless Quickstart](https://honeybadger-static.s3.amazonaws.com/github/serverless-quickstart.png)](https://www.honeybadger.io/for/node/?utm_source=github&utm_medium=readme&utm_campaign=serverless&utm_content=cover-image)
 
 # Honeybadger's Serverless Quickstart
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
