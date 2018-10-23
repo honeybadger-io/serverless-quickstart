@@ -47,22 +47,6 @@ cd serverless-quickstart
 yarn install
 ```
 
-## Local Tests
-
-Tests use the [Jest](https://jestjs.io/) framework.
-They run locally, and should mock all AWS calls so that they can run offline.
-
-Jest considers any file with a name like `foo.test.js` to be a test.
-While test files can technically be in any subdirectory, here we place them in `test/` for sanity.
-
-To run tests whenever files change:
-
-```
-yarn run jest --watch
-```
-
-Leave out the `--watch` option to run tests once.
-
 ## Deploying
 
 In Rails you run your app in the "development" or "production" environments.
@@ -93,21 +77,6 @@ If you're done, and want to remove from dev:
 sls remove
 ```
 
-## Viewing Logs
-
-When you `console.log` something in your code, it gets written to a cloudwatch log stream.
-An easy way to view this stream is to do:
-
-```
-sls logs --tail --function <myfuncname>
-```
-
-For production, it's:
-
-```
-sls logs --tail --function <myfuncname> --stage production
-```
-
 ## Running the 'greet' function
 
 This quickstart comes with a working example function that takes a name like "Bob" and returns "Hello, Bob".
@@ -123,6 +92,21 @@ To get it running:
 
 The code in `functions/greet.js` gives a pretty good overview of how data comes in and goes out of the lambda fn.
 
+## Viewing Logs
+
+When you `console.log` something in your code, it gets written to a cloudwatch log stream.
+An easy way to view this stream is to do:
+
+```
+sls logs --tail --function <myfuncname>
+```
+
+For production, it's:
+
+```
+sls logs --tail --function <myfuncname> --stage production
+```
+
 ## Honeybadger Reporting
 
 To report errors to [Honeybadger](https://www.honeybadger.io/for/node/?utm_source=github&utm_medium=readme&utm_campaign=serverless&utm_content=Honeybadger), add the following environment variable to the "Environment variables" section in the Lambda dashboard for your function:
@@ -132,6 +116,22 @@ HONEYBADGER_API_KEY=[project API key]
 ```
 
 ![AWS Lambda Dashboard](https://s3.amazonaws.com/honeybadger-static/github/aws-lambda-env-vars.png)
+
+## Local Tests
+
+Tests use the [Jest](https://jestjs.io/) framework.
+They run locally, and should mock all AWS calls so that they can run offline.
+
+Jest considers any file with a name like `foo.test.js` to be a test.
+While test files can technically be in any subdirectory, here we place them in `test/` for sanity.
+
+To run tests whenever files change:
+
+```
+yarn run jest --watch
+```
+
+Leave out the `--watch` option to run tests once.
 
 ## Linting
 
