@@ -116,12 +116,22 @@ To get it running:
 
 1. Set up your AWS profiles as described above
 2. From your project directory, run `sls deploy`
-3. Log into the AWS console and pull up the lambda function
+3. Log into the [AWS console](https://console.aws.amazon.com/lambda/home) and pull up the lambda function
 4. Create a new test event containing `{ "name": "Bob" }`
 5. Click "Test" to run the test.
 6. View the output.
 
 The code in `functions/greet.js` gives a pretty good overview of how data comes in and goes out of the lambda fn.
+
+## Honeybadger Reporting
+
+To report errors to [Honeybadger](https://www.honeybadger.io/for/node/?utm_source=github&utm_medium=readme&utm_campaign=serverless&utm_content=Honeybadger), add the following environment variable to the "Environment variables" section in the Lambda dashboard for your function:
+
+```
+HONEYBADGER_API_KEY=[project API key]
+```
+
+![AWS Lambda Dashboard](https://s3.amazonaws.com/honeybadger-static/github/aws-lambda-env-vars.png)
 
 ## Linting
 
