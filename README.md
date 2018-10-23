@@ -11,6 +11,7 @@ This is a blank serverless project that gives you:
 - Testing via [Jest](https://jestjs.io/)
 - Better dev/prod separation
 - A serverless-friendly [ESLint](https://eslint.org/) config
+- Honeybadger reporting (duh!)
 
 We use this to quickly spin up new Serverless projects at [Honeybadger](https://www.honeybadger.io/for/node/?utm_source=github&utm_medium=readme&utm_campaign=serverless&utm_content=Honeybadger).
 
