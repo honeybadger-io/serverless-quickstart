@@ -8,7 +8,7 @@
   "private": true,
   "devDependencies": {
     "aws-sdk": "^2.298.0",
-    "aws-sdk-mock": "^4.1.0",
+    "aws-sdk-mock": "^4.4.0",
     "jest": "^23.5.0",
     "serverless-pseudo-parameters": "^2.4.0"
   },
