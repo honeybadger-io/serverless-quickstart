@@ -3227,10 +3227,10 @@ sax@>=0.6.0, sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.1.tgz#7dfdd8814bdb7cabc7be0fb1d734cfb66c940477"
   integrity sha512-PqpAxfrEhlSUWge8dwIp4tZnQ25DIOthpiaHNIthsjEFQD6EvqUKUDM7L8O2rShkFccYo1VjJR0coWfNkCubRw==
 
-serverless-pseudo-parameters@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/serverless-pseudo-parameters/-/serverless-pseudo-parameters-2.4.0.tgz#bf5ebe6948f60bbf69c7dc2cf4bd2a5ee7dc6761"
-  integrity sha512-lb9R62PUFdEAbbYH7pe1wzR7vtIpa8YI8OVcQ5LlLyE0+AxWG4bwEw33X5LE8+5oLwTy57Y/EevnxKnMeyiXxw==
+serverless-pseudo-parameters@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/serverless-pseudo-parameters/-/serverless-pseudo-parameters-2.5.0.tgz#f30bf34db166e4b8b22144a8e65aca71b90dd1e6"
+  integrity sha512-A/O49AR8LL6jlnPSmnOTYgL1KqVgskeRla4sVDeS/r5dHFJlwOU5MgFilc7aaQP8NWAwRJANaIS9oiSE3I+VUA==
 
 set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
