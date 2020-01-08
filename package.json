@@ -7,7 +7,7 @@
   "license": "All rights reserved",
   "private": true,
   "devDependencies": {
-    "aws-sdk": "^2.597.0",
+    "aws-sdk": "^2.599.0",
     "aws-sdk-mock": "^5.0.0",
     "jest": "^23.5.0",
     "serverless-pseudo-parameters": "^2.5.0"
