@@ -25,7 +25,7 @@ provider:
   name: aws
   stage: dev
   profile: ${self:custom.profile.${self:custom.stage}}
-  runtime: nodejs8.10
+  runtime: nodejs12.x
   timeout: 20
   memorySize: 256
 
