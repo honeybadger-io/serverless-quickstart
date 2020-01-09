@@ -32,7 +32,7 @@ This project adopts one that seems to be fairly common:
 ├── node_modules          // Non-dev dependencies are automatically included by Serverless
 ├── README.md
 ├── package.json
-└── package-lock.lock
+└── package-lock.json
 ```
 
 ## Local Installation
