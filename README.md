@@ -2,6 +2,7 @@
 
 # Honeybadger's Serverless Quickstart
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhoneybadger-io%2Fserverless-quickstart%2Fbadge&style=flat)](https://actions-badge.atrox.dev/honeybadger-io/serverless-quickstart/goto)
 [![License](https://img.shields.io/github/license/honeybadger-io/serverless-quickstart.svg)](LICENSE)
 
 This is a blank serverless project that gives you:
