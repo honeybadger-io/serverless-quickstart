@@ -32,19 +32,19 @@ This project adopts one that seems to be fairly common:
 ├── node_modules          // Non-dev dependencies are automatically included by Serverless
 ├── README.md
 ├── package.json
-└── yarn.lock
+└── package-lock.lock
 ```
 
 ## Local Installation
 
-To get the project running locally, make sure you have node 8.x, yarn and serverless installed globally.
+To get the project running locally, make sure you have node 8.x and serverless installed globally.
 
 ```
-# Install the yarn and serverless packages globally:
-npm install -g yarn serverless
+# Install the serverless package globally:
+npm install -g serverless
 
 cd serverless-quickstart
-yarn install
+npm install
 ```
 
 ## Deploying
@@ -128,7 +128,7 @@ While test files can technically be in any subdirectory, here we place them in `
 To run tests whenever files change:
 
 ```
-yarn run jest --watch
+npm test -- --watch
 ```
 
 Leave out the `--watch` option to run tests once.

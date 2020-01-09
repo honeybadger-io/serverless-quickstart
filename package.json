@@ -6,6 +6,9 @@
   "author": "Starr Horne <starr@chromahq.com>",
   "license": "All rights reserved",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "aws-sdk": "^2.600.0",
     "aws-sdk-mock": "^5.0.0",

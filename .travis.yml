@@ -1,6 +1,6 @@
 language: node_js
-cache: yarn
-script: yarn jest
+cache: npm
+script: npm jest
 node_js:
   - "9"
   - "8"
