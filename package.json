@@ -12,7 +12,7 @@
   "devDependencies": {
     "aws-sdk": "^2.766.0",
     "aws-sdk-mock": "^5.1.0",
-    "jest": "^25.4.0",
+    "jest": "^26.5.0",
     "serverless-pseudo-parameters": "^2.5.0"
   },
   "dependencies": {
