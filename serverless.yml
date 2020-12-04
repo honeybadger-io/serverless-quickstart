@@ -50,6 +50,8 @@ provider:
 #    variable1: value1
 
 functions:
+  fail:
+    handler: functions/fail.handler
   greet:
     handler: functions/greet.handler
 #
