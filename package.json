@@ -16,6 +16,6 @@
     "serverless-pseudo-parameters": "^2.5.0"
   },
   "dependencies": {
-    "@honeybadger-io/js": "^3.0.2"
+    "@honeybadger-io/js": "^3.0.3"
   }
 }
