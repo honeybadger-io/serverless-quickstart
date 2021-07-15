@@ -13,7 +13,7 @@
     "aws-sdk": "^2.943.0",
     "aws-sdk-mock": "^5.2.1",
     "jest": "^27.0.6",
-    "serverless-pseudo-parameters": "^2.5.0"
+    "serverless-pseudo-parameters": "^2.6.0"
   },
   "dependencies": {
     "@honeybadger-io/js": "^3.2.1"
