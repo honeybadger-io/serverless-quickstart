@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "aws-sdk": "^2.954.0",
+    "aws-sdk": "^2.957.0",
     "aws-sdk-mock": "^5.2.1",
     "jest": "^27.0.6",
     "serverless-pseudo-parameters": "^2.6.0"
