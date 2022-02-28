@@ -8,7 +8,6 @@ updates:
     timezone: America/Los_Angeles
   open-pull-requests-limit: 99
   assignees:
-  - joshuap
   ignore:
   - dependency-name: aws-sdk
     versions:
